@@ -1,0 +1,137 @@
+/* Your styles here */
+h1 {
+    font-size: 2.5rem; 
+    font-weight: 700; 
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem; 
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem; 
+    font-weight: 400; 
+    margin-bottom: 10px;
+    line-height: 1.5; 
+  }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    color: #393d41;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #25a2c3;
+}
+/*parte iniziale*/
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+header img {
+    background-size: 50%;
+}
+button {
+    background-color: #ff4800;
+    color: white;
+    border: none;
+}
+#immagine{
+    background-image: url(../images/banner.jpg);
+    background-size: auto 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    margin: 0;
+    text-align: center;
+}
+#parte1{
+    text-align: center;
+}
+#parte1 img{
+    width: 80vw; 
+    height: 80vw;
+    border-radius: 50%; 
+    object-fit: cover;  
+    margin-bottom: 2em;
+    margin-top: 2em;  
+}
+
+#arancione{
+    background-color: #ff4800;
+    text-align: center;
+    color: white;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+#arancione h1{
+    color: white;
+}
+
+.rettangoli {
+    padding: 0px; 
+    background-color: rgb(255, 255, 255); 
+    border: 3px solid rgb(191, 191, 191); 
+    margin: 20px; 
+    box-sizing: border-box; 
+    text-align: center; 
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.rettangoli img {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto; 
+}
+footer{
+    padding: 0px; 
+    background-color: #25a2c3; 
+    border: 3px solid #25a2c3; 
+    margin: 0%; 
+    box-sizing: border-box; 
+    text-align: center; 
+}
+footer h1 {
+    color: white;
+}
+footer a {
+    color: white; 
+    text-decoration: none; 
+}
+footer p {
+    color: white;
+}
+
+footer a[href^="mailto"], 
+footer p:nth-child(2) { 
+    text-decoration: underline; 
+}
+
+footer p:first-child a {
+    text-decoration:none; 
+}
+footer .fa-solid {
+    color: white;
+}
+hr {
+    width: 50%;  
+    margin: 0 auto;  
+    border: 1px solid white;  
+}
