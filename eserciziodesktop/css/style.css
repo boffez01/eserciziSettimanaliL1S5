@@ -1,0 +1,171 @@
+/* Your styles here */
+h1 {
+    font-size: 2.5rem; 
+    font-weight: 700; 
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem; 
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem; 
+    font-weight: 400; 
+    margin-bottom: 10px;
+    line-height: 1.5; 
+  }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    color: #393d41;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #25a2c3;
+}
+/*parte iniziale*/
+header{
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 20px 0;
+}
+header img {
+    background-size: 50%;
+}
+button {
+    background-color: #ff4800;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+}
+
+#immagine {
+    background-image: url(../images/banner.jpg);
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%; 
+    height: 60vh; 
+}
+#parte1 {
+    display: block;
+    margin: 0 auto;
+}
+
+#parte1 img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 50%; 
+    object-fit: cover;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 50px; 
+   
+}
+
+.content {
+    display: inline-block; 
+}
+
+.text {
+    display: inline-block;
+    max-width: 60%; 
+    margin-left: 20em; 
+    vertical-align: top; 
+    text-align: left; 
+   
+}
+
+
+h2, p {
+    margin: 0; 
+    line-height: 1.6; 
+}
+
+
+#arancione{
+    background-color: #ff4800;
+    text-align: center;
+    color: white;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+#arancione h1{
+    color: white;
+}
+
+.container {
+    overflow: hidden;  
+}
+
+.rettangoli {
+    float: left;  
+    width: 30%;  
+    padding: 0px;
+    background-color: rgb(255, 255, 255); 
+    border: 3px solid rgb(191, 191, 191); 
+    margin-right: 2%;  
+    box-sizing: border-box; 
+}
+
+.rettangoli img {
+    display: block; 
+    margin: 0 auto; 
+    width: 100%;  
+    height: auto; 
+}
+
+
+footer{
+    padding: 0px; 
+    background-color: #25a2c3; 
+    border: 3px solid #25a2c3; 
+    margin: 0%; 
+    box-sizing: border-box; 
+    text-align: center; 
+}
+footer h1 {
+    color: white;
+}
+footer a {
+    color: white; 
+    text-decoration: none; 
+}
+footer p {
+    color: white;
+}
+
+footer a[href^="mailto"], 
+footer p:nth-child(2) { 
+    text-decoration: underline; 
+}
+
+footer p:first-child a {
+    text-decoration:none; 
+}
+footer .fa-solid {
+    color: white;
+}
+hr {
+    width: 50%;  
+    margin: 0 auto;  
+    border: 1px solid white;  
+}
