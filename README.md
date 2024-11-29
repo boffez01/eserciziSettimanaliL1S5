@@ -1,0 +1,1 @@
+# eserciziSettimanaliL1S5
